@@ -15,7 +15,7 @@ public class SeleccionAnidada {
         Scanner scan = new Scanner(System.in); // scanner para ingreso de datos
         System.out.println("Ingrese la calificacion: ");
         int calificacion = scan.nextInt();
-
+        // comparacion de calificacion para presentacion de mensaje final
         if (calificacion >= 90) {
             System.out.printf("%s %d\n", OperacionDos.mensaje, calificacion);
         } else {
