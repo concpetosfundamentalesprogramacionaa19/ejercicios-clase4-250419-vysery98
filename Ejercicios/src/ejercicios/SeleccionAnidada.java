@@ -13,6 +13,7 @@ public class SeleccionAnidada {
         // documentacion
 
         Scanner scan = new Scanner(System.in); // scanner para ingreso de datos
+        System.out.println("Ingrese la calificacion: ");
         int calificacion = scan.nextInt();
 
         if (calificacion >= 90) {
